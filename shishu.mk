@@ -128,6 +128,8 @@ PRODUCT_PACKAGES += \
     ShishuAmalgamationThemeSettingsOverlay \
     ShishuAmalgamationThemeSystemUIOverlay
 
+include packages/overlays/Shishufied/Switch/switch.mk
+
 # QS header styles
 PRODUCT_PACKAGES += \
     QSHeaderBlack \
